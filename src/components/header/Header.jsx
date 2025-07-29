@@ -1,5 +1,5 @@
 import './Header.css';
-import cvjhonathan from '../../assets/cvjhonathan.pdf';
+import cvjhonathan from '../../assets/cvjhonathanlima.pdf';
 import logo from "../../assets/logo.png";
 import ds from "../../assets/ds.jpg";
 import img1 from "../../assets/img1.jpg";
