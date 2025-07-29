@@ -1,0 +1,355 @@
+header-container {
+    padding: 40px 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+    word-wrap: break-word;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    background-color: #f6f6f6;
+    transition: background-color 0.3s ease;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.image-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 100%;
+    margin: 3rem 0;
+    padding: 0 2rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.image-row img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+
+.image-row img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .image-row {
+        gap: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .image-row img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+.header-container h1 {
+    font-size: 42px;
+    color: #333;
+    margin: 0;
+    padding-top: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 14px;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 600px;
+}
+
+.highlight {
+    color: #555;
+    font-weight: bold;
+}
+
+body.dark-mode h1 {
+    color: #f2f2f2;
+}
+
+body.dark-mode p {
+    color: #ccc;
+}
+
+body.dark-mode .highlight {
+    color: #fff;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 28px;
+    color: #888;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #d4af37;
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+    margin: 40px auto;
+    overflow-x: auto;
+    padding: 0 20px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 40px;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.image-row::-webkit-scrollbar {
+    display: none;
+}
+
+.image-row img {
+    height: 350px;
+    width: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+
+@media (max-width: 767px) {
+    .header-container {
+        padding-left: 1rem;
+        padding-top: 20px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin-right: 200px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header-container h1 {
+        font-size: 28px;
+        padding-left: 10px;
+    }
+
+    p {
+        font-size: 0.9rem;
+        max-width: 90%;
+    }
+
+    .social-icons {
+        gap: 15px;
+        padding-right: 105px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+    }
+
+    .image-row {
+        display: flex;
+        gap: 15px;
+        margin-top: 20px;
+        width: 100%;
+        overflow-x: auto;
+        padding: 0 10px;
+        justify-content: flex-start;
+        scroll-snap-type: x mandatory;
+    }
+
+    .image-row img {
+        height: 250px;
+        width: 200px;
+        border-radius: 12px;
+        object-fit: cover;
+        flex-shrink: 0;
+        scroll-snap-align: start;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.work-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 40px 3rem;
+    margin: 15px auto 0;
+    max-width: 350px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #333;
+}
+
+/* CORES ADAPTADAS PARA MODO DARK */
+body.dark-mode .work-card {
+    background-color: #1e1e1e;
+    color: #f2f2f2;
+    border-color: #444;
+}
+
+.work-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.work-icon {
+    font-size: 24px;
+    color: #888;
+}
+
+body.dark-mode .work-icon {
+    color: #bbb;
+}
+
+.work-header h2 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.work-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.work-left div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.company-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.company-name {
+    font-weight: 500;
+    display: block;
+    color: #333;
+}
+
+body.dark-mode .company-name {
+    color: #f2f2f2;
+}
+
+.job-title {
+    font-size: 0.85rem;
+    margin-top: 2px;
+    color: #666;
+}
+
+body.dark-mode .job-title {
+    color: #ccc;
+}
+
+.work-duration {
+    color: #888;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+body.dark-mode .work-duration {
+    color: #bbb;
+}
+
+.download-btn {
+    margin-top: 12px;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    padding: 8px 16px;
+    background-color: #f6f6f6;
+    color: black;
+    font-weight: 500;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #e2e1e1;
+}
+
+body.dark-mode .download-btn {
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+body.dark-mode .download-btn:hover {
+    background-color: #444;
+}
+
+@media (max-width: 767px) {
+    .work-card {
+        max-width: 800px;
+        margin: 0 auto;
+        margin-left: 10px;
+        padding: 12px;
+        margin-top: 40px;
+    }
+
+    .work-content {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .work-left {
+        margin-bottom: 10px;
+    }
+
+    .company-logo {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .download-btn {
+        width: 90%;
+        max-width: 90%;
+    }
+}
