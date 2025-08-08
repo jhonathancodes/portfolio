@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.png";
-import perfil from "../../assets/img1.jpg"; // <-- sua imagem
+import perfil from "../../assets/img1.jpg"; 
 import { FaReact, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { SiNextdotjs, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiMui } from "react-icons/si";
