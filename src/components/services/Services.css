@@ -146,31 +146,31 @@ body.dark-mode .project-link:hover {
     }
 
     .project-card {
-        width: 95%; /* Aumenta a largura */
+        width: 95%;
         max-width: 95%;
-        height: auto; /* Ajusta a altura conforme o conteúdo */
-        padding: 1rem; /* Menos padding */
+        height: auto;
+        padding: 1rem;
     }
 
     .services-heading {
-        font-size: 28px; /* Diminui o tamanho do título */
+        font-size: 28px; 
     }
 
     .services-text {
-        font-size: 0.95rem; /* Diminui o tamanho do texto */
-        max-width: 90%; /* Ajusta o texto para não ficar muito largo */
+        font-size: 0.95rem; 
+        max-width: 90%; 
     }
 
     .project-title {
-        font-size: 14px; /* Diminui o título do projeto */
+        font-size: 14px;
     }
 
     .project-summary {
-        font-size: 0.90rem; /* Diminui o tamanho do resumo */
+        font-size: 0.90rem;
     }
 
     .project-link {
-        font-size: 13px; /* Diminui o tamanho do link */
+        font-size: 13px;
     }
 }
 
