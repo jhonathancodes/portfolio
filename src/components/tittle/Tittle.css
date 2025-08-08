@@ -1,4 +1,4 @@
-/* Variáveis de cores (apenas modo claro) */
+
 :root {
     --background-light: #fff;
     --text-light: #333;
@@ -6,7 +6,7 @@
     --highlight-light: #d4af37;
 }
 
-/* Tema claro */
+
 body {
     background-color: var(--background-light);
     color: var(--text-light);
@@ -163,7 +163,7 @@ body.dark .contact-row a:hover {
         padding: 30px 1rem 0;
         display: flex;
         flex-direction: column;
-        align-items: center; /* garante centralização geral */
+        align-items: center;
     }
 
     .header-content {
