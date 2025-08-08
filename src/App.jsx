@@ -1,4 +1,4 @@
-// src/App.jsx
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { DarkModeProvider } from './contexts/DarkModeContext';
 import Home from './Home.jsx';
