@@ -210,7 +210,6 @@ body {
     color: #333;
 }
 
-/* CORES ADAPTADAS PARA MODO DARK */
 body.dark-mode .work-card {
     background-color: #1e1e1e;
     color: #f2f2f2;
