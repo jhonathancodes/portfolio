@@ -58,7 +58,7 @@ body.dark-mode .logo {
     font-weight: bold;
 }
 
-/* Botão Dark Mode */
+
 .dark-toggle {
     background-color: white;
     color: #333;
@@ -152,7 +152,7 @@ body.dark-mode .logo {
     font-weight: bold;
 }
 
-/* RESPONSIVO */
+
 @media (max-width: 768px) {
     .navbar-desktop {
         display: none;
@@ -204,7 +204,7 @@ body.dark-mode .navbar-mobile a.active {
     font-weight: bold;
 }
 
-/* Modo escuro para botão Menu */
+
 body.dark-mode .menu-toggle {
     background-color: #1e1e1e;
     color: #fff;
