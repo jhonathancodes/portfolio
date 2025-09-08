@@ -35,7 +35,7 @@ function Services() {
                     <p className="project-summary">
                         Sistema de gestão de agendamentos e horários para a Andrade Barber.
                     </p>
-                    <a href="https://novafront.com.br/web/" target="_blank" rel="noopener noreferrer" className="project-link">
+                    <a href="https://andradebarber.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
                         <FiExternalLink style={{ marginLeft: '6px' }} /> andradebarber.com
                     </a>
                 </div>
