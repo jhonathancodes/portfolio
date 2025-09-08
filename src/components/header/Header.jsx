@@ -8,6 +8,7 @@ import img3 from "../../assets/img3.jpg";
 import img4 from "../../assets/img4.jpg";
 import img5 from "../../assets/img5.jpg";
 import { FaLinkedin, FaGithub, FaWhatsapp, FaEnvelope, FaBriefcase } from 'react-icons/fa';
+import { FaTiktok } from "react-icons/fa6";
 
 function Header() {
   return (
@@ -31,6 +32,9 @@ function Header() {
           </a>
           <a href="https://wa.me/5511962619817" target="_blank" rel="noopener noreferrer">
             <FaWhatsapp />
+          </a>
+          <a href="https://www.tiktok.com/@_jhowmkt" target="_blank" rel="noopener noreferrer">
+            <FaTiktok />
           </a>
           <a href="mailto:jhonathan.novais3450@gmail.com">
             <FaEnvelope />
