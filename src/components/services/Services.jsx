@@ -31,12 +31,12 @@ function Services() {
                 </div>
 
                 <div className="project-card">
-                    <h2 className="project-title">Catálogo Novafront</h2>
+                    <h2 className="project-title">Andrade Barber</h2>
                     <p className="project-summary">
-                        Criamos landing pages de alta conversão impacto que converte visitantes. Com um design elegante e atrativo com foco em resultados, ajudamos você a destacar sua marca e aumentar suas conversões.
+                        Sistema de gestão de agendamentos e horários para a Andrade Barber.
                     </p>
                     <a href="https://novafront.com.br/web/" target="_blank" rel="noopener noreferrer" className="project-link">
-                        <FiExternalLink style={{ marginLeft: '6px' }} /> novafront.com.br
+                        <FiExternalLink style={{ marginLeft: '6px' }} /> andradebarber.com
                     </a>
                 </div>
 
@@ -59,6 +59,16 @@ function Services() {
                     </p>
                     <a href="https://ascomdoacao.vercel.app/login" target="_blank" rel="noopener noreferrer" className="project-link">
                         <FiExternalLink style={{ marginLeft: '6px' }} /> ascomdoacao.org
+                    </a>
+                </div>
+
+                <div className="project-card">
+                    <h2 className="project-title">Catálogo Novafront</h2>
+                    <p className="project-summary">
+                        Criamos landing pages de alta conversão impacto que converte visitantes. Com um design elegante e atrativo com foco em resultados, ajudamos você a destacar sua marca e aumentar suas conversões.
+                    </p>
+                    <a href="https://novafront.com.br/web/" target="_blank" rel="noopener noreferrer" className="project-link">
+                        <FiExternalLink style={{ marginLeft: '6px' }} /> novafront.com.br
                     </a>
                 </div>
 
